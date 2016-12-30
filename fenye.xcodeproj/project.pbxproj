@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961291611E15EE9A00BFF6CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961291601E15EE9A00BFF6CE /* main.m */; };
+		961291641E15EE9A00BFF6CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961291631E15EE9A00BFF6CE /* AppDelegate.m */; };
+		961291671E15EE9A00BFF6CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961291661E15EE9A00BFF6CE /* ViewController.m */; };
+		9612916A1E15EE9A00BFF6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961291681E15EE9A00BFF6CE /* Main.storyboard */; };
+		9612916C1E15EE9A00BFF6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9612916B1E15EE9A00BFF6CE /* Assets.xcassets */; };
+		9612916F1E15EE9A00BFF6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9612916D1E15EE9A00BFF6CE /* LaunchScreen.storyboard */; };
+		9612917A1E15EE9A00BFF6CE /* fenyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961291791E15EE9A00BFF6CE /* fenyeTests.m */; };
+		961291851E15EE9A00BFF6CE /* fenyeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961291841E15EE9A00BFF6CE /* fenyeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		961291761E15EE9A00BFF6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961291541E15EE9A00BFF6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9612915B1E15EE9A00BFF6CE;
+			remoteInfo = fenye;
+		};
+		961291811E15EE9A00BFF6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961291541E15EE9A00BFF6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9612915B1E15EE9A00BFF6CE;
+			remoteInfo = fenye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9612915C1E15EE9A00BFF6CE /* fenye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fenye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961291601E15EE9A00BFF6CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		961291621E15EE9A00BFF6CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		961291631E15EE9A00BFF6CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		961291651E15EE9A00BFF6CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		961291661E15EE9A00BFF6CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		961291691E15EE9A00BFF6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9612916B1E15EE9A00BFF6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9612916E1E15EE9A00BFF6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961291701E15EE9A00BFF6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961291751E15EE9A00BFF6CE /* fenyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fenyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961291791E15EE9A00BFF6CE /* fenyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fenyeTests.m; sourceTree = "<group>"; };
+		9612917B1E15EE9A00BFF6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961291801E15EE9A00BFF6CE /* fenyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fenyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961291841E15EE9A00BFF6CE /* fenyeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fenyeUITests.m; sourceTree = "<group>"; };
+		961291861E15EE9A00BFF6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961291591E15EE9A00BFF6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961291721E15EE9A00BFF6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9612917D1E15EE9A00BFF6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961291531E15EE9A00BFF6CE = {
+			isa = PBXGroup;
+			children = (
+				9612915E1E15EE9A00BFF6CE /* fenye */,
+				961291781E15EE9A00BFF6CE /* fenyeTests */,
+				961291831E15EE9A00BFF6CE /* fenyeUITests */,
+				9612915D1E15EE9A00BFF6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9612915D1E15EE9A00BFF6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9612915C1E15EE9A00BFF6CE /* fenye.app */,
+				961291751E15EE9A00BFF6CE /* fenyeTests.xctest */,
+				961291801E15EE9A00BFF6CE /* fenyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9612915E1E15EE9A00BFF6CE /* fenye */ = {
+			isa = PBXGroup;
+			children = (
+				961291621E15EE9A00BFF6CE /* AppDelegate.h */,
+				961291631E15EE9A00BFF6CE /* AppDelegate.m */,
+				961291651E15EE9A00BFF6CE /* ViewController.h */,
+				961291661E15EE9A00BFF6CE /* ViewController.m */,
+				961291681E15EE9A00BFF6CE /* Main.storyboard */,
+				9612916B1E15EE9A00BFF6CE /* Assets.xcassets */,
+				9612916D1E15EE9A00BFF6CE /* LaunchScreen.storyboard */,
+				961291701E15EE9A00BFF6CE /* Info.plist */,
+				9612915F1E15EE9A00BFF6CE /* Supporting Files */,
+			);
+			path = fenye;
+			sourceTree = "<group>";
+		};
+		9612915F1E15EE9A00BFF6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				961291601E15EE9A00BFF6CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		961291781E15EE9A00BFF6CE /* fenyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				961291791E15EE9A00BFF6CE /* fenyeTests.m */,
+				9612917B1E15EE9A00BFF6CE /* Info.plist */,
+			);
+			path = fenyeTests;
+			sourceTree = "<group>";
+		};
+		961291831E15EE9A00BFF6CE /* fenyeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				961291841E15EE9A00BFF6CE /* fenyeUITests.m */,
+				961291861E15EE9A00BFF6CE /* Info.plist */,
+			);
+			path = fenyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9612915B1E15EE9A00BFF6CE /* fenye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961291891E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenye" */;
+			buildPhases = (
+				961291581E15EE9A00BFF6CE /* Sources */,
+				961291591E15EE9A00BFF6CE /* Frameworks */,
+				9612915A1E15EE9A00BFF6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fenye;
+			productName = fenye;
+			productReference = 9612915C1E15EE9A00BFF6CE /* fenye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		961291741E15EE9A00BFF6CE /* fenyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9612918C1E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenyeTests" */;
+			buildPhases = (
+				961291711E15EE9A00BFF6CE /* Sources */,
+				961291721E15EE9A00BFF6CE /* Frameworks */,
+				961291731E15EE9A00BFF6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961291771E15EE9A00BFF6CE /* PBXTargetDependency */,
+			);
+			name = fenyeTests;
+			productName = fenyeTests;
+			productReference = 961291751E15EE9A00BFF6CE /* fenyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9612917F1E15EE9A00BFF6CE /* fenyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9612918F1E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenyeUITests" */;
+			buildPhases = (
+				9612917C1E15EE9A00BFF6CE /* Sources */,
+				9612917D1E15EE9A00BFF6CE /* Frameworks */,
+				9612917E1E15EE9A00BFF6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961291821E15EE9A00BFF6CE /* PBXTargetDependency */,
+			);
+			name = fenyeUITests;
+			productName = fenyeUITests;
+			productReference = 961291801E15EE9A00BFF6CE /* fenyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961291541E15EE9A00BFF6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 691;
+				TargetAttributes = {
+					9612915B1E15EE9A00BFF6CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					961291741E15EE9A00BFF6CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9612915B1E15EE9A00BFF6CE;
+					};
+					9612917F1E15EE9A00BFF6CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9612915B1E15EE9A00BFF6CE;
+					};
+				};
+			};
+			buildConfigurationList = 961291571E15EE9A00BFF6CE /* Build configuration list for PBXProject "fenye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961291531E15EE9A00BFF6CE;
+			productRefGroup = 9612915D1E15EE9A00BFF6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9612915B1E15EE9A00BFF6CE /* fenye */,
+				961291741E15EE9A00BFF6CE /* fenyeTests */,
+				9612917F1E15EE9A00BFF6CE /* fenyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9612915A1E15EE9A00BFF6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9612916F1E15EE9A00BFF6CE /* LaunchScreen.storyboard in Resources */,
+				9612916C1E15EE9A00BFF6CE /* Assets.xcassets in Resources */,
+				9612916A1E15EE9A00BFF6CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961291731E15EE9A00BFF6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9612917E1E15EE9A00BFF6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961291581E15EE9A00BFF6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961291671E15EE9A00BFF6CE /* ViewController.m in Sources */,
+				961291641E15EE9A00BFF6CE /* AppDelegate.m in Sources */,
+				961291611E15EE9A00BFF6CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961291711E15EE9A00BFF6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9612917A1E15EE9A00BFF6CE /* fenyeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9612917C1E15EE9A00BFF6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961291851E15EE9A00BFF6CE /* fenyeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		961291771E15EE9A00BFF6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9612915B1E15EE9A00BFF6CE /* fenye */;
+			targetProxy = 961291761E15EE9A00BFF6CE /* PBXContainerItemProxy */;
+		};
+		961291821E15EE9A00BFF6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9612915B1E15EE9A00BFF6CE /* fenye */;
+			targetProxy = 961291811E15EE9A00BFF6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		961291681E15EE9A00BFF6CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961291691E15EE9A00BFF6CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9612916D1E15EE9A00BFF6CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9612916E1E15EE9A00BFF6CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961291871E15EE9A00BFF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		961291881E15EE9A00BFF6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9612918A1E15EE9A00BFF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fenye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9612918B1E15EE9A00BFF6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fenye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9612918D1E15EE9A00BFF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fenyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fenye.app/fenye";
+			};
+			name = Debug;
+		};
+		9612918E1E15EE9A00BFF6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fenyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fenye.app/fenye";
+			};
+			name = Release;
+		};
+		961291901E15EE9A00BFF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fenyeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fenye;
+			};
+			name = Debug;
+		};
+		961291911E15EE9A00BFF6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fenyeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liujingyi.fenyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fenye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961291571E15EE9A00BFF6CE /* Build configuration list for PBXProject "fenye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961291871E15EE9A00BFF6CE /* Debug */,
+				961291881E15EE9A00BFF6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961291891E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9612918A1E15EE9A00BFF6CE /* Debug */,
+				9612918B1E15EE9A00BFF6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9612918C1E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9612918D1E15EE9A00BFF6CE /* Debug */,
+				9612918E1E15EE9A00BFF6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9612918F1E15EE9A00BFF6CE /* Build configuration list for PBXNativeTarget "fenyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961291901E15EE9A00BFF6CE /* Debug */,
+				961291911E15EE9A00BFF6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961291541E15EE9A00BFF6CE /* Project object */;
+}
